@@ -1,2 +1,5 @@
 # ERT-Praktikum
-Ulm University ERT Praktiukm
+Ulm University ERT Praktikum
+
+## Table of contents
+- Schematics
