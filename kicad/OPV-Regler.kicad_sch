@@ -501,7 +501,7 @@
     (uuid e03629b2-260a-4ac9-9661-ccc93a711443)
   )
 
-  (text "Ua = -R4/R5·U_e" (at 148.59 54.61 0)
+  (text "Ua = -R2/R6·U_e" (at 148.59 54.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41825581-d839-4169-b11b-8669e8b8cfb0)
   )
@@ -509,7 +509,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8ced6479-b09b-43ef-b9bf-81280eb5bf2f)
   )
-  (text "Ua = -R8/R7·U_e" (at 57.15 50.8 0)
+  (text "Ua = -R1/R3·U_e" (at 57.15 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da756e4e-9c0a-4a83-82a7-8fc9c0f85ff9)
   )
@@ -552,7 +552,7 @@
   (symbol (lib_id "power:GND") (at 118.11 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e77d91f-aaee-48b4-aa6e-3d2ab944f777)
-    (property "Reference" "#PWR05" (at 118.11 111.76 0)
+    (property "Reference" "#PWR03" (at 118.11 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 110.49 0)
@@ -568,7 +568,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -577,10 +577,10 @@
   (symbol (lib_id "Device:R") (at 111.76 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1064ae70-1413-4acf-95c1-86e7d87c325d)
-    (property "Reference" "R10" (at 111.76 92.71 90)
+    (property "Reference" "R9" (at 111.76 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 111.76 95.25 90)
+    (property "Value" "10k" (at 111.76 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 111.76 99.568 90)
@@ -594,7 +594,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -603,7 +603,7 @@
   (symbol (lib_id "Device:R") (at 160.02 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1730ae16-2dcc-4ad1-9e59-6af4609f10d5)
-    (property "Reference" "R6" (at 160.02 95.25 90)
+    (property "Reference" "R10" (at 160.02 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 160.02 97.79 90)
@@ -620,7 +620,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -629,10 +629,10 @@
   (symbol (lib_id "Device:R") (at 127 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19aa61b9-bb1a-4e71-a18d-b2ff6333aa3e)
-    (property "Reference" "R11" (at 127 60.96 90)
+    (property "Reference" "R5" (at 127 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 127 63.5 90)
+    (property "Value" "10k" (at 127 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 127 67.818 90)
@@ -646,7 +646,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R11") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -655,7 +655,7 @@
   (symbol (lib_id "power:GND") (at 171.45 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28c9d6a8-e2c8-4ddc-8694-0e136a8659ef)
-    (property "Reference" "#PWR03" (at 171.45 114.3 0)
+    (property "Reference" "#PWR04" (at 171.45 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 113.03 0)
@@ -671,7 +671,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -705,7 +705,7 @@
   (symbol (lib_id "Device:R") (at 68.58 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4487aec2-0b0b-4bcb-a97a-94bb9cc96f29)
-    (property "Reference" "R7" (at 68.58 58.42 90)
+    (property "Reference" "R3" (at 68.58 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 68.58 60.96 90)
@@ -722,7 +722,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -731,7 +731,7 @@
   (symbol (lib_id "Device:R") (at 160.02 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b69b867-0d6b-47e9-a562-968589abb00e)
-    (property "Reference" "R5" (at 160.02 60.96 90)
+    (property "Reference" "R6" (at 160.02 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 160.02 63.5 90)
@@ -748,7 +748,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -757,7 +757,7 @@
   (symbol (lib_id "Device:R") (at 88.9 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54539e94-e1b6-4ea7-9e5b-6aaaefa31836)
-    (property "Reference" "R8" (at 88.9 49.53 90)
+    (property "Reference" "R1" (at 88.9 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 88.9 52.07 90)
@@ -774,7 +774,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R8") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -783,10 +783,10 @@
   (symbol (lib_id "Device:R") (at 203.2 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66fd5f9c-dade-4ae7-8f53-e27faa234115)
-    (property "Reference" "R2" (at 203.2 97.79 90)
+    (property "Reference" "R11" (at 203.2 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 203.2 100.33 90)
+    (property "Value" "10k" (at 203.2 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 203.2 104.648 90)
@@ -800,7 +800,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -809,7 +809,7 @@
   (symbol (lib_id "Device:R") (at 180.34 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8312ea9d-d105-405b-896f-b5ec15d438a7)
-    (property "Reference" "R4" (at 180.34 52.07 90)
+    (property "Reference" "R2" (at 180.34 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 180.34 54.61 90)
@@ -826,7 +826,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -835,7 +835,7 @@
   (symbol (lib_id "power:GND") (at 80.01 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 936edf6d-f8d0-4e20-8102-141dfe1898a3)
-    (property "Reference" "#PWR04" (at 80.01 77.47 0)
+    (property "Reference" "#PWR01" (at 80.01 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 76.2 0)
@@ -851,7 +851,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -860,10 +860,10 @@
   (symbol (lib_id "Device:R") (at 111.76 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98ae851d-7a5e-469a-b04e-991a81f6b746)
-    (property "Reference" "R9" (at 111.76 60.96 90)
+    (property "Reference" "R4" (at 111.76 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 111.76 63.5 90)
+    (property "Value" "10k" (at 111.76 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 111.76 67.818 90)
@@ -877,7 +877,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R9") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -886,7 +886,7 @@
   (symbol (lib_id "Amplifier_Operational:TL081") (at 88.9 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b060eb87-bb45-424f-bfbb-f7783da206da)
-    (property "Reference" "U2" (at 95.25 62.23 0)
+    (property "Reference" "U1" (at 95.25 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL081" (at 95.25 59.69 0)
@@ -909,7 +909,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -918,7 +918,7 @@
   (symbol (lib_id "power:GND") (at 209.55 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baccfeee-9165-4436-b361-873eca657cd3)
-    (property "Reference" "#PWR01" (at 209.55 116.84 0)
+    (property "Reference" "#PWR05" (at 209.55 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 115.57 0)
@@ -934,7 +934,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -943,7 +943,7 @@
   (symbol (lib_id "Amplifier_Operational:TL081") (at 180.34 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb031cc8-55b1-4f02-8291-d7c46be58bd3)
-    (property "Reference" "U3" (at 186.69 64.77 0)
+    (property "Reference" "U2" (at 186.69 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL081" (at 186.69 62.23 0)
@@ -966,7 +966,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -975,10 +975,10 @@
   (symbol (lib_id "Device:R") (at 203.2 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbf5200e-cd7a-447f-8e6e-d8b0263630cf)
-    (property "Reference" "R1" (at 203.2 63.5 90)
+    (property "Reference" "R7" (at 203.2 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 203.2 66.04 90)
+    (property "Value" "10k" (at 203.2 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 203.2 70.358 90)
@@ -992,7 +992,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R1") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1001,7 +1001,7 @@
   (symbol (lib_id "Amplifier_Operational:TL081") (at 218.44 105.41 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d23b2457-6037-4725-9aed-29f54c2ee81c)
-    (property "Reference" "U1" (at 222.25 111.76 0)
+    (property "Reference" "U5" (at 222.25 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL081" (at 223.52 109.22 0)
@@ -1024,7 +1024,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1033,7 +1033,7 @@
   (symbol (lib_id "Amplifier_Operational:TL081") (at 127 100.33 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6fdb865-8907-4b67-9ee5-72390538db68)
-    (property "Reference" "U5" (at 130.81 106.68 0)
+    (property "Reference" "U3" (at 130.81 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL081" (at 132.08 104.14 0)
@@ -1056,7 +1056,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1123,10 +1123,10 @@
   (symbol (lib_id "Device:R") (at 218.44 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9440cab-8d7e-42fc-8b27-7c17a94a2495)
-    (property "Reference" "R3" (at 218.44 63.5 90)
+    (property "Reference" "R8" (at 218.44 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 218.44 66.04 90)
+    (property "Value" "10k" (at 218.44 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 218.44 70.358 90)
@@ -1140,7 +1140,7 @@
     (instances
       (project "OPV-Regler"
         (path "/906649fb-ef22-4b2e-b096-2007fe2edbe4"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
